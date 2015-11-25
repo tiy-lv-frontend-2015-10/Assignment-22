@@ -6,4 +6,3 @@ var Counter = require ('./components/likes.jsx');
 
 ReactDOM.render(<Counter />, document.getElementById('button'));
 
-
