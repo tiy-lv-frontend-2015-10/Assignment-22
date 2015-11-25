@@ -1,5 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var Backbone = require('backbone');
+var BackboneParse = require('../../backbone-parse.js');
 
 var LikeButton = React.createClass({
 	getInitialState: function(){
@@ -21,12 +23,8 @@ var LikeButton = React.createClass({
 			this.setState({
 				like: 'likes'
 			})
+
 		}
-		
-		
-
-
-		
 	},
 	render:function(){
 		return(<button onClick={this._count}><span id="number">{this.state.counter}</span><span id="like">{this.state.like}</span></button>)
@@ -34,4 +32,6 @@ var LikeButton = React.createClass({
 }); 
 
 module.exports = LikeButton;
+
+
 
