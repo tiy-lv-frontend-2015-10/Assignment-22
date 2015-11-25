@@ -19,6 +19,7 @@
   "dependencies": {
     "backbone": "^1.2.3",
     "css": "^2.2.1",
+    "css-loader": "^0.23.0",
     "jquery": "^2.1.4",
     "json-loader": "^0.5.4",
     "jsx-loader": "^0.13.2",
