@@ -1,3 +1,4 @@
+//Creating a button that can be pressed and get likes
 var React = require('react');
 var ReactDOM = require('react-dom');
 
