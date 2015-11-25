@@ -1,6 +1,6 @@
 # 11/24/15
 
-___This homework is due by 8am, on 11/25/2015___
+___This homework is due by 8am, on 11/25/2015____
 
 # Build a like button with React
 
