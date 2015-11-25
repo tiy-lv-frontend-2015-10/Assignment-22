@@ -1,24 +1,7 @@
 require("../css/main.css");
 var Backbone = require ('backbone');
 var React = require ('react');
-var ReactDOM = require ('react-dom');	
+var ReactDOM = require ('react-dom');
+var Counter = require ('./components/likes.jsx');
 
-var LikeButton = React.createClass({
-  getInitialState: function() {
-    return {liked: false};
-  },
-  _handleClick: function(event) {
-    this.setState({liked: !this.state.liked});
-  },
-  render: function() {
-    var text = this.state.liked ? 'like' : 'not liked';
-    return (
-      <button id="likeButton" onClick={this._handleClick} />
-    );
-  }
-});
-
-ReactDOM.render(
-  <LikeButton />,
-  document.getElementById('container')
-);
+ReactDOM.render(<Counter />, document.getElementById('container'));
