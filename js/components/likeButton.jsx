@@ -14,8 +14,12 @@ var LikeButton = React.createClass({
     }
   },
   render: function() {
+    var upDank = " Up Danks"
+    if(this.state.count === 1) {
+      upDank = " Up Dank"
+    }
     return (
-      <button id="button" type = "button" onClick={this.upDank}> {this.state.count} Likes</button>
+      <button id="button" type = "button" onClick={this.upDank}> {this.state.count + upDank}</button>
     )
   }
 });
