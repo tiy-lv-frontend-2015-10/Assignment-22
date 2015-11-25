@@ -18,3 +18,5 @@ var LikeButton = require('./components/likeButton.jsx');
 		//ReactDOM.render(<LikeButton model={model} router={this}/>, document.getElementById('container'));
 	}
 });*/
+
+ReactDOM.render(<LikeButton />, document.getElementById('button'));
