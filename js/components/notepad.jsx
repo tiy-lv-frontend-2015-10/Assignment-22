@@ -5,26 +5,25 @@ require('../../main.css');
 var LikeButton = React.createClass({
 	getInitialState: function() {
 		return {liked: false};
-		return {counter: 0};
 	},
 	handleClick: function(e) {
 		this.setState({liked: !this.state.liked});
-
-		},
+	},
 	render: function() {
-		var text = this.state.liked ? 'Liked' : 'Like';
-		
-		
+		var text = this.state.liked ? 'like' : 'not liked';
 		return (
-			<div>
 			<button onClick={this.handleClick}>{text}</button>
-			</div>
 			);
 	},
 });
 
-ReactDOM.render(<LikeButton />, document.getElementById('button'));
+ReactDOM.render(
+	<LikeButton />,
+	document.getElementById('button')
+	);
 
 
+module.exports = LikeButton;
 
-//module.exports = LikeButton;
+counter: this.state.counter + 1;
+var count = this.state.liked ? counter + 1 : counter - 1;
