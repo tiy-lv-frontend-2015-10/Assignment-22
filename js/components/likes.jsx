@@ -7,9 +7,9 @@ var Counter = React.createClass({
       counter: 0
     }
   },
-  _handleClick: function(){
+  _handleClick: function(e){
     this.setState({
-      
+      counter: this.state.counter + 1
     });
   },
   render: function(){
@@ -22,5 +22,4 @@ var Counter = React.createClass({
     );
   }
 });
-
 module.exports = Counter;
