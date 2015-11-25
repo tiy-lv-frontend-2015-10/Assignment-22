@@ -1,0 +1,23 @@
+button {
+	width:150px;
+	height:40px;
+	background: #2B96DD;
+	outline:none;
+	border-radius:10px;
+	border:1px solid #2B96DD;
+	box-shadow: 1px 3px 1px 1px;
+}
+button:active {
+	background: #2B91AD;
+}
+
+#number {
+	color:#fff;
+	font-size: 18px;
+	padding-right: 5px;
+}
+
+#like {
+	color:#fff;
+	font-size: 18px;
+}
