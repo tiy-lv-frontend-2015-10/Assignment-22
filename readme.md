@@ -1,5 +1,9 @@
 # 11/24/15
 
+******************************************************************************************************
+Concept.... Make 'like' a true or false. If liked, add 1, else  substract 1. Set like and counter in state. On onchange-click event, the new total will show. Set a cookie to show if the user has already 'liked' it or not.
+****************************************************************************************************** 
+
 ___This homework is due by 8am, on 11/25/2015___
 
 # Build a like button with React
