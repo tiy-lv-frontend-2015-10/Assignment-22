@@ -1,15 +1,11 @@
- var React = require ('react');
- var ReactDOM = require ('React-dom');
- var Backbone = require ('backbone');
+var React = require('react');
+var ReactDOM = require('react-dom');
+var Backbone = require('backbone');
+var LikeButton = require('./components/LikeButton.jsx');
 
-var LikeBtn = React.createClass({
-	render: function () {
-		return(
-		<div>
-			<button>the</button>
-		</div>
-		)
-	}
-});
 
-ReactDOM.render(<LikeBtn />, document.getElementById('LikeBtn'));
+
+ReactDOM.render(<LikeButton />, document.getElementById('LikeBtn'));
+
+
+

@@ -1,0 +1,13 @@
+#button {
+	height: 80px;
+	background: blue;
+	color: white;
+	border: none;
+	font-size: 3em;
+
+}
+
+
+#button:active {
+	background: lightblue;
+}
