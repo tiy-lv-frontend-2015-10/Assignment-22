@@ -1,0 +1,22 @@
+#button{
+	position: relative;
+	width: 50%;
+	margin: auto;
+}
+
+#likeButton{
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	background: blue;
+	color: white;
+	outline: none;
+	margin-top: 20%;
+}
+
+#likeButton:hover{
+	background: black;
+	color: blue;
+}
