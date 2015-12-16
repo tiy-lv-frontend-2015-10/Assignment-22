@@ -1,0 +1,48 @@
+body {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#photo {
+	margin: 0 auto;
+	width: 404px;
+	height: 270px;
+	margin-bottom: 20px;
+}
+
+#photo img {
+	width: 400px;
+	height: 266px;
+	border: 2px solid black;
+}
+
+#likeButton {
+	width: 65px;
+	height: 25px;
+	background-color: blue;
+	color: white;
+	font-family: "Arial", "sans serif";
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+#likeButton Button {
+	width: 65px;
+	height: 25px;
+	border: 1px solid white;
+	background-color: blue;
+	color: white;
+	font-family: "Arial", "sans serif";
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
