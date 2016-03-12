@@ -1,0 +1,35 @@
+body {
+	background: #B0E0E6;
+	font-family: Arial, sans-serif;
+}
+
+#container {
+	width: 600px;
+	margin: auto;
+}
+
+ #likeMe {
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	font-size: 1.1rem;
+	color: white;
+	background-color: #1E90FF;
+	border-radius: 5px;
+}
+#likeMe:hover {
+	background-color: #00FFFF;
+	color: grey;
+}
+
+#center {
+	width: 400px;
+	margin: auto;
+	margin-top: 180px;
+	text-align: center;
+}
+
+#buttonHole {
+	width: 200px;
+	margin: auto;
+}
