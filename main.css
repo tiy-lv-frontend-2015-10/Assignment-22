@@ -1,0 +1,21 @@
+/*creating a nice and easy to use button*/
+body {
+  background: #424254;
+}
+#button {
+  position: relative;
+  top: 3em;
+  left: 3.5em;
+  background-color: #351330;
+  color: #E8CAA4;
+  font-size: 100px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#button:active {
+  background-color: #CC2A41;
+}

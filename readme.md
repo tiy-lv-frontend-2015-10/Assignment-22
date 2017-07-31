@@ -24,7 +24,7 @@ After completing this assignment, you should...
 ![Example](assets/likes.gif)
 
 ## Hard Mode
-* Make the like button refer to a specific record in a parse.com database by passing it a model and updating the amount of likes by using Backbone.Model.save() 
+* Make the like button refer to a specific record in a parse.com database by passing it a model and updating the amount of likes by using Backbone.Model.save()
 
 ### Deliverables
 
